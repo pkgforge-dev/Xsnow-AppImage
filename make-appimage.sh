@@ -11,7 +11,7 @@ export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}
 export ICON=/usr/share/pixmaps/xsnow.svg
 export DESKTOP=/usr/share/applications/xsnow.desktop
 export DEPLOY_GTK=1
-export DEPLOY_OPENGL=1
+export ALWAYS_SOFTWARE=1
 
 # Deploy dependencies
 quick-sharun /usr/bin/xsnow
