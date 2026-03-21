@@ -10,6 +10,7 @@ export ADD_HOOKS="self-updater.bg.hook"
 export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}|latest|*$ARCH.AppImage.zsync"
 export ICON=/usr/share/pixmaps/xsnow.svg
 export DESKTOP=/usr/share/applications/xsnow.desktop
+export STARTUPWMCLASS=Xsnow
 export DEPLOY_GTK=1
 export ALWAYS_SOFTWARE=1
 
