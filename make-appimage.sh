@@ -11,8 +11,6 @@ export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}
 export ICON=/usr/share/pixmaps/xsnow.svg
 export DESKTOP=/usr/share/applications/xsnow.desktop
 export STARTUPWMCLASS=Xsnow
-export DEPLOY_GTK=1
-export GTK_DIR=gtk-3.0
 export USE_HOST_DRIVERS_EXPERIMENTAL=1
 
 # Deploy dependencies
