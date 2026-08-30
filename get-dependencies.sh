@@ -6,7 +6,11 @@ ARCH=$(uname -m)
 
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
-pacman -Syu --noconfirm atk cairo gsl libx11 libxpm libxml2
+pacman -Syu --noconfirm \
+    atk    \
+    cairo  \
+    gsl    \
+    libxpm
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
@@ -23,7 +27,7 @@ echo "---------------------------------------------------------------"
 VERSION=3.9.4
 echo "$VERSION" > ~/version
 wget https://www.ratrabbit.nl/downloads/xsnow/xsnow-$VERSION.tar.gz
-
+tar -xvf ./xsnow-$VERSION.tar.gz
 
 mkdir -p ./AppDir/bin
 cd ./xsnow-$VERSION
