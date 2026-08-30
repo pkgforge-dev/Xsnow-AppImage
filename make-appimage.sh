@@ -7,8 +7,8 @@ export ARCH
 export OUTPATH=./dist
 export ADD_HOOKS="self-updater.hook"
 export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}|latest|*$ARCH.AppImage.zsync"
-export ICON=/usr/share/pixmaps/xsnow.svg
-export DESKTOP=/usr/share/applications/xsnow.desktop
+export ICON=xsnow-$VERSION/src/Pixmaps/xsnow.svg
+export DESKTOP=xsnow-$VERSION/data/xsnow.desktop
 export STARTUPWMCLASS=Xsnow
 export USE_HOST_DRIVERS_EXPERIMENTAL=1
 
