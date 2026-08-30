@@ -16,7 +16,7 @@ echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
 get-debloated-pkgs --add-common --prefer-nano
 
-echo "Building Xsnow..."
+echo "Building stable version of Xsnow..."
 echo "---------------------------------------------------------------"
 VERSION=3.9.0
 echo "$VERSION" > ~/version
