@@ -25,7 +25,7 @@ make-aur-package opencv4
 # if you also have to make nightly releases check for DEVEL_RELEASE = 1
 echo "Building Xsnow..."
 echo "---------------------------------------------------------------"
-VERSION=3.9.4
+VERSION=3.9.0
 echo "$VERSION" > ~/version
 wget https://www.ratrabbit.nl/downloads/xsnow/xsnow-$VERSION.tar.gz
 tar -xvf ./xsnow-$VERSION.tar.gz
