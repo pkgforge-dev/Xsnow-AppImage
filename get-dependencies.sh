@@ -6,11 +6,7 @@ ARCH=$(uname -m)
 
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
-pacman -Syu --noconfirm \
-    atk    \
-    cairo  \
-    gsl    \
-    libxpm
+pacman -Syu --noconfirm atk cairo gsl libxpm
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
